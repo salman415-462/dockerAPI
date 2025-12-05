@@ -16,9 +16,9 @@ A complete e-commerce API built with FastAPI featuring JWT authentication, produ
 
 ## Installation
 
-1. Create virtual environment:
-```bash
-python -m venv venv
-source venv/bin/activate  # On Windows: venv\Scripts\activate
-# pythonstoreapi
-# dockerAPI
+
+git clone https://github.com/salman415-462/dockerAPI
+cd dockerAPI
+docker build -t ecommerce-api .
+docker run -d -p 9000:8000 --name ecommerce_container ecommerce-api
+
