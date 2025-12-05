@@ -21,3 +21,4 @@ A complete e-commerce API built with FastAPI featuring JWT authentication, produ
 python -m venv venv
 source venv/bin/activate  # On Windows: venv\Scripts\activate
 # pythonstoreapi
+# dockerAPI
