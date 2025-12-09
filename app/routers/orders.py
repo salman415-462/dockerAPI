@@ -140,13 +140,19 @@ async def update_order_status(
         status_update: OrderUpdate,
         current_user: User = Depends(require_admin)
 ):
+    update_data = status_update.dict(exclude_unset=True)
+
     for i, order in enumerate(db.orders):
         if order["id"] == order_id:
-            if "status" in status_update.dict(exclude_unset=True):
-                db.orders[i]["status"] = status_update.status
+
+            # Update all fields dynamically
+            for key, value in update_data.items():
+                db.orders[i][key] = value
+
             return Order(**db.orders[i])
 
     raise HTTPException(status_code=404, detail="Order not found")
+
 
 
 @router.get("/stats/summary")
