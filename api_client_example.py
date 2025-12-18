@@ -6,7 +6,7 @@ import requests
 import json
 import sys
 
-BASE_URL = "http://localhost:8000"
+BASE_URL = "http://localhost:9000"
 
 class ECommerceClient:
     def __init__(self, base_url=BASE_URL):

@@ -3,7 +3,7 @@ Run specific test categories
 """
 import requests
 
-BASE_URL = "http://localhost:8000"
+BASE_URL = "http://localhost:9000"
 
 def test_authentication_only():
     """Test only authentication endpoints"""

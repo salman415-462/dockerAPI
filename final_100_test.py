@@ -2,7 +2,7 @@ import requests
 import json
 import time
 
-BASE_URL = "http://localhost:8000"
+BASE_URL = "http://localhost:9000"
 
 def run_test(name, func):
     try:
@@ -153,7 +153,7 @@ else:
     print("Check the errors above and fix them.")
 
 print("\n" + "=" * 60)
-print("📚 API Documentation: http://localhost:8000/docs")
+print("📚 API Documentation: http://localhost:9000/docs")
 print("👤 Default users:")
 print("   - Customer: john_doe / password123")
 print("   - Admin: admin_user / password123")

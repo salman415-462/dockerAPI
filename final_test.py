@@ -1,7 +1,7 @@
 import requests
 import json
 
-BASE_URL = "http://localhost:8000"
+BASE_URL = "http://localhost:9000"
 
 print("=" * 60)
 print("FINAL API TEST - E-COMMERCE API")

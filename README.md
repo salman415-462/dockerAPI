@@ -37,7 +37,7 @@ docker build -t ecommerce-api .
 ### 3. Run the container
 
 ```bash
-docker run -d -p 9000:8000 --name ecommerce_container ecommerce-api
+docker run -d -p 9000:9000 --name ecommerce_container ecommerce-api
 ```
 
 ### 4. Access the API

@@ -7,7 +7,7 @@ import json
 import sys
 import time
 
-BASE_URL = "http://localhost:8000"
+BASE_URL = "http://localhost:9000"
 TEST_RESULTS = {"passed": 0, "failed": 0, "total": 0}
 
 def print_header(text):
@@ -464,7 +464,7 @@ def run_comprehensive_test():
     print("\n🔧 Next steps:")
     print("   1. Review any failed tests")
     print("   2. Check server logs for errors")
-    print("   3. Test manually at http://localhost:8000/docs")
+    print("   3. Test manually at http://localhost:9000/docs")
     print("   4. Consider adding a real database (SQLite/PostgreSQL)")
 
 if __name__ == "__main__":

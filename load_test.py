@@ -5,7 +5,7 @@ import concurrent.futures
 import requests
 import time
 
-BASE_URL = "http://localhost:8000"
+BASE_URL = "http://localhost:9000"
 
 def test_get_products():
     """Test getting products"""
