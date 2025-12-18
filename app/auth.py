@@ -27,7 +27,7 @@ def get_password_hash(password):
 def update_db_hashes():
     """Update all password hashes in database to simple hashes"""
     for user in db.users:
-        if user["username"] == "john_doe":
+        if user["username"] == "john_doe" or "Jessica_Jimenez":
             user["hashed_password"] = simple_hash("password123")
         elif user["username"] == "admin_user":
             user["hashed_password"] = simple_hash("password123")
