@@ -1,8 +1,28 @@
+<<<<<<< HEAD
+=======
+# FastAPI E-Commerce API
+>>>>>>> e994edd (ORDERS router (put) updated)
 
 ## Installation & Running with Docker
 
 ### 1. Clone the repository
 
+<<<<<<< HEAD
+=======
+* 🔐 JWT Authentication with user roles (admin/customer)
+* 🛍️ Products with filtering, sorting, and pagination
+* 🛒 Shopping carts
+* 📦 Orders management
+* 👤 User management
+* 🎯 Query parameters for filtering
+* ✅ Input validation with Pydantic
+* 🛡️ Role-based access control
+
+## Installation & Running with Docker
+
+### 1. Clone the repository
+
+>>>>>>> e994edd (ORDERS router (put) updated)
 ```bash
 git clone https://github.com/salman415-462/dockerAPI
 cd dockerAPI
